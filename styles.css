@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+  padding: 10px;
+}
+
+nav button {
+  color: white;
+  background: #444;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #555;
+}
+
+.section {
+  display: none;
+  padding: 20px;
+  height: 100vh; /* Full viewport height */
+  background-size: cover;
+  background-position: center;
+}
+#personal-info {
+  background-image: url('./img/profile.jpg');
+    color: -50%;
+}
+
+#education {
+  background-image: url('./img/education.jpg');
+}
+
+#skills {
+  background-image: url('./img/skills.jpg');
+}
+
+#experience {
+  background-image: url('./img/experience.jpg');
+}
+
+#projects {
+  background-image: url('./img/contact.jpg');
+}
+
+#contact {
+  background-image: url('path-to-your-contact-background.jpg');
+}
+
+#save-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#save-btn:hover {
+  background: #218838;
+}

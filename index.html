@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Your Interactive Resume</h1>
+    </header>
+
+    <nav>
+      <button id="personal-btn">Personal Info</button>
+      <button id="education-btn">Education</button>
+      <button id="skills-btn">Skills</button>
+      <button id="experience-btn">Experience</button>
+      <button id="projects-btn">Projects</button>
+      <button id="contact-btn">Contact</button>
+    </nav>
+
+    <!-- Personal Info Section -->
+    <section id="personal-info" class="section">
+      <h2>Personal Info</h2>
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <label>Age:</label>
+      <input type="text" id="age" placeholder="Enter your age">
+      <label>Address:</label>
+      <input type="text" id="address" placeholder="Enter your address">
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <label>Degree:</label>
+      <input type="text" id="degree" placeholder="Enter your degree">
+      <label>Institution:</label>
+      <input type="text" id="institution" placeholder="Enter your institution">
+      <label>Graduation Year:</label>
+      <input type="text" id="graduation-year" placeholder="Enter your graduation year">
+      <textarea id="education-info" placeholder="Enter additional education details"></textarea>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <label>Skill 1:</label>
+      <input type="text" id="skill-1" placeholder="Enter your first skill">
+      <label>Skill 2:</label>
+      <input type="text" id="skill-2" placeholder="Enter your second skill">
+      <label>Skill 3:</label>
+      <input type="text" id="skill-3" placeholder="Enter your third skill">
+      <textarea id="skills-info" placeholder="Enter additional skills"></textarea>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <label>Job Title:</label>
+      <input type="text" id="job-title" placeholder="Enter your job title">
+      <label>Company:</label>
+      <input type="text" id="company" placeholder="Enter your company name">
+      <label>Years Worked:</label>
+      <input type="text" id="years-worked" placeholder="Enter years worked">
+      <textarea id="experience-info" placeholder="Enter detailed job experience"></textarea>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <label>Project Name:</label>
+      <input type="text" id="project-name" placeholder="Enter project name">
+      <label>Project Description:</label>
+      <textarea id="project-description" placeholder="Describe your project"></textarea>
+      <textarea id="projects-info" placeholder="Enter additional project details"></textarea>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <label>Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+      <label>Phone:</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number">
+    </section>
+
+    <footer>
+      <button id="save-btn">Save to Local Storage</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
